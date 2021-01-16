@@ -1,0 +1,36 @@
+{
+  "name": "yeneremin/yii2-module",
+  "description": "pharmacy module",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "yeneremin",
+      "email": "yenereminelibol@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "yiisoft/yii2": "~2.0.13"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.."
+  },
+  "autoload": {
+    "psr-4": {
+      "yeneremin\\yii2-module\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "yeneremin\\yii2-module\\tests\\": "tests"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org/"
+    }
+  ]
+}
